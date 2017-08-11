@@ -1,0 +1,13 @@
+{
+	"autodeskProduct":	"Fusion360",
+	"type":	"addin",
+	"id":	"7aa1da8f-d3d2-478a-af8d-f4b255038fda",
+	"author":	"",
+	"description":	{
+		"":	"API test for Fusion360"
+	},
+	"version":	"",
+	"runOnStartup":	false,
+	"supportedOS":	"windows|mac",
+	"editEnabled":	true
+}
