@@ -14,8 +14,9 @@ def run(context):
         cmdDefs = ui.commandDefinitions
 
         # Create a button command definition.
-        buttonSample = cmdDefs.addButtonDefinition('SampleScriptButtonId', 
-                                                   'Python Sample Button')
+        buttonSample = cmdDefs.addButtonDefinition('MyButtonDefIdPython', 
+                                                   'Python Sample Button', 
+                                                   'Sample button tooltip' )
         
         # Connect to the command created event.
         sampleCommandCreated = SampleCommandCreatedEventHandler()
